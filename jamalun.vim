@@ -32,9 +32,11 @@ if has("gui_running") || &t_Co == 256
     highlight ErrorMsg     term=NONE cterm=NONE ctermfg=231  ctermbg=167  gui=NONE guifg=#ffffff guibg=#d75f5f
     highlight FoldColumn   term=NONE cterm=NONE ctermfg=180  ctermbg=237  gui=NONE guifg=#d7af87 guibg=#3a3a3a
     highlight Folded       term=NONE cterm=NONE ctermfg=220  ctermbg=237  gui=NONE guifg=#ffd700 guibg=#3a3a3a
-    highlight Identifier   term=NONE cterm=NONE ctermfg=120  ctermbg=NONE gui=NONE guifg=#87ff87 guibg=NONE
+    highlight Function     term=NONE cterm=NONE ctermfg=84   ctermbg=NONE gui=NONE guifg=#5fff87 guibg=NONE
+    highlight Identifier   term=NONE cterm=NONE ctermfg=121  ctermbg=NONE gui=NONE guifg=#87ffaf guibg=NONE
     highlight Ignore       term=NONE cterm=NONE ctermfg=240  ctermbg=NONE gui=NONE guifg=#585858 guibg=NONE
     highlight IncSearch    term=NONE cterm=NONE ctermfg=147  ctermbg=24   gui=NONE guifg=#afafff guibg=#005f87
+    highlight MatchParen   term=NONE cterm=NONE ctermfg=232  ctermbg=50   gui=NONE guifg=#080808 guibg=#00ffd7
     highlight ModeMsg      term=NONE cterm=NONE ctermfg=178  ctermbg=NONE gui=NONE guifg=#d7af00 guibg=NONE
     highlight MoreMsg      term=NONE cterm=NONE ctermfg=29   ctermbg=NONE gui=NONE guifg=#00875f guibg=NONE
     highlight NonText      term=NONE cterm=NONE ctermfg=242  ctermbg=NONE gui=NONE guifg=#6c6c6c guibg=NONE
@@ -47,7 +49,7 @@ if has("gui_running") || &t_Co == 256
     highlight SpecialKey   term=NONE cterm=NONE ctermfg=112  ctermbg=NONE gui=NONE guifg=#87d700 guibg=NONE
     highlight Statement    term=NONE cterm=NONE ctermfg=222  ctermbg=NONE gui=NONE guifg=#ffd787 guibg=NONE
     highlight StatusLine   term=NONE cterm=NONE ctermfg=231  ctermbg=237  gui=NONE guifg=#ffffff guibg=#6a6a6a
-    highlight StatusLineNC term=NONE cterm=NONE ctermfg=16   ctermbg=237  gui=NONE guifg=#000000 guibg=#6a6a6a
+    highlight StatusLineNC term=NONE cterm=NONE ctermfg=251  ctermbg=237  gui=NONE guifg=#c6c6c6 guibg=#6a6a6a
     highlight Todo         term=NONE cterm=NONE ctermfg=196  ctermbg=226  gui=NONE guifg=#ff0000 guibg=#ffff00
     highlight Type         term=NONE cterm=NONE ctermfg=143  ctermbg=NONE gui=NONE guifg=#afaf5f guibg=NONE
     highlight Underlined   term=NONE cterm=NONE ctermfg=81   ctermbg=NONE gui=NONE guifg=#5fd7ff guibg=NONE
